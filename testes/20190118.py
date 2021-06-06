@@ -27,8 +27,7 @@ def fix_lines(strg):
 
 #-----------------Questão 3
 
-def fix_sent_start(a):
-  
+def fix_sent_start(a):  
     return '. '.join(map(lambda s: s.strip().capitalize(), a.split('.')))
     
 #-----------------Questão 4

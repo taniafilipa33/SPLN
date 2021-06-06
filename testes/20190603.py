@@ -84,8 +84,9 @@ def previsaoSemanal(distrito, concelho):
 
     soup_page = soup(response, 'html.parser')
     div = soup_page.find('div',id='daily')
-    #print(ul)
     print(div)
+
+
 if __name__ == "__main__":
     #print(count_digits([1,5,14,28,1000]))  
     #print(id_palindrome("SPLN"))  
